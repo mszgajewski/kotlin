@@ -5,16 +5,24 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Tic-Tac-Toe/task" />
             <option value="$PROJECT_DIR$/Topics/Standard output/Amount on the account" />
             <option value="$PROJECT_DIR$/Topics/Standard output/From 0 to 9" />
             <option value="$PROJECT_DIR$/Topics/Standard output/Theory" />
             <option value="$PROJECT_DIR$/Topics/Standard output/Tic-Tac-Toe" />
             <option value="$PROJECT_DIR$/Topics/Standard output/We need to learn Kotlin" />
+            <option value="$PROJECT_DIR$/Topics/String basics/JSON" />
+            <option value="$PROJECT_DIR$/Topics/String basics/Theory" />
+            <option value="$PROJECT_DIR$/Topics/String templates/Arithmetic expression" />
+            <option value="$PROJECT_DIR$/Topics/String templates/Date and time formatting" />
+            <option value="$PROJECT_DIR$/Topics/String templates/Print two numbers on the same line" />
+            <option value="$PROJECT_DIR$/Topics/String templates/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
