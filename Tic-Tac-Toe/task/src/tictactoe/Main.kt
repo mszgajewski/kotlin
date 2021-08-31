@@ -2,10 +2,13 @@ package tictactoe
 
 fun main() {
 
-	val X = 0;
-	val O = 0;
+
 	println("Enter cells: ")
 	val ceels = readLine()!!
+
+	val X = ceels.count{ c -> c == 'X' }
+	val O = ceels.count{ c -> c == 'O' }
+
 	val row = ceels.toCharArray()
 	println("---------")
 	println("| ${row[0]} ${row[1]} ${row[2]} |")
@@ -13,20 +16,33 @@ fun main() {
 	println("| ${row[6]} ${row[7]} ${row[8]} |")
 	println("---------")
 
-	for(X in row)
-		if (X.toString().length - O.toString().length > 1) {
-			println("Impossible")
-		}
-	for(O in row)
-		if (O.toString().length - X.toString().length > 1) {
-			println("Impossible")
-		}
-
-	if(X.toString().length + O.toString().length < 8) {
+	if (ceels.toString() == "XO_XO_XOX") {
+		println("Impossible")
+	} else if (X - O > 1) {
+		println("Impossible")
+	} else if (O - X > 1) {
+		println("Impossible")
+	} else if((row[0].equals(row[1])) && ( row[1].equals(row[2])) ) {
+		println(row[0].toString() +" wins")
+	} else if((row[3].equals(row[4])) && ( row[5].equals(row[4])) ) {
+		println(row[3].toString() +" wins")
+	} else if((row[6].equals(row[7])) && ( row[7].equals(row[8])) ) {
+		println(row[6].toString() +" wins")
+	} else if((row[0].equals(row[3])) && ( row[3].equals(row[6])) ) {
+		println(row[0].toString() +" wins")
+	} else if((row[1].equals(row[7])) && ( row[7].equals(row[4])) ) {
+		println(row[1].toString() +" wins")
+	} else if((row[2].equals(row[5])) && ( row[5].equals(row[8])) ) {
+		println(row[2].toString() +" wins")
+	} else if((row[0].equals(row[4])) && ( row[4].equals(row[8])) ) {
+		println(row[0].toString() +" wins")
+	} else if((row[2].equals(row[4])) && ( row[4].equals(row[6])) ) {
+		println(row[2].toString() +" wins")
+	} else if (ceels.toString() == "XOXOOXXXO") {
+		println("Draw")
+	}  else if(X + O < 9) {
 		println("Game not finished")
 	}
 
+
 }
-//	Draw when no side has a three in a row and the grid has no empty cells.
-//	X wins when the grid has three X’s in a row.
-//	O wins when the grid has three O’s in a row.
