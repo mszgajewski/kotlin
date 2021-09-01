@@ -1,10 +1,10 @@
+fun divide(a: Long, b: Long): Float {
 
+    return a/b.toFloat()
+}
+/* Do not change code below */
 fun main() {
-
-   // println("content".substringAfter("t"))
-            println("content".substring(1,1))
-            println("content".substringBefore("c"))
-           // println("content".substring(-1,-1))
-           // println("content".substring(0,1))
-            println("content".substring(0,0))
+    val a = readLine()!!.toLong()
+    val b = readLine()!!.toLong()
+    println(divide(a, b))
 }
