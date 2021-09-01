@@ -16,11 +16,7 @@ fun main() {
 	println("| ${row[6]} ${row[7]} ${row[8]} |")
 	println("---------")
 
-	if (ceels.toString() == "XO_XO_XOX") {
-		println("Impossible")
-	} else if (X - O > 1) {
-		println("Impossible")
-	} else if (O - X > 1) {
+	if (X - O > 1 || O - X > 1 || X == O) {
 		println("Impossible")
 	} else if((row[0].equals(row[1])) && ( row[1].equals(row[2])) ) {
 		println(row[0].toString() +" wins")
