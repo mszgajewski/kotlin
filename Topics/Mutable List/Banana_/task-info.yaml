@@ -1,0 +1,53 @@
+type: code
+custom_name: Banana!
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun solution(strings: MutableList<String>, str: String): MutableList<String> {
+        // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11040#comment
+status: Failed
+feedback:
+  message: "Compilation error\nmain.kt:9:31: error: unresolved reference. None of\
+    \ the following candidates is applicable because of receiver type mismatch: \n\
+    public fun <T> Array<out TypeVariable(T)>.joinToString(separator: CharSequence\
+    \ = ..., prefix: CharSequence = ..., postfix: CharSequence = ..., limit: Int =\
+    \ ..., truncated: CharSequence = ..., transform: ((TypeVariable(T)) -> CharSequence)?\
+    \ = ...): String defined in kotlin.collections\npublic fun BooleanArray.joinToString(separator:\
+    \ CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ...,\
+    \ limit: Int = ..., truncated: CharSequence = ..., transform: ((Boolean) -> CharSequence)?\
+    \ = ...): String defined in kotlin.collections\npublic fun ByteArray.joinToString(separator:\
+    \ CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ...,\
+    \ limit: Int = ..., truncated: CharSequence = ..., transform: ((Byte) -> CharSequence)?\
+    \ = ...): String defined in kotlin.collections\npublic fun CharArray.joinToString(separator:\
+    \ CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ...,\
+    \ limit: Int = ..., truncated: CharSequence = ..., transform: ((Char) -> CharSequence)?\
+    \ = ...): String defined in kotlin.collections\npublic fun DoubleArray.joinToString(separator:\
+    \ CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ...,\
+    \ limit: Int = ..., truncated: CharSequence = ..., transform: ((Double) -> CharSequence)?\
+    \ = ...): String defined in kotlin.collections\npublic fun FloatArray.joinToString(separator:\
+    \ CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ...,\
+    \ limit: Int = ..., truncated: CharSequence = ..., transform: ((Float) -> CharSequence)?\
+    \ = ...): String defined in kotlin.collections\npublic fun IntArray.joinToString(separator:\
+    \ CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ...,\
+    \ limit: Int = ..., truncated: CharSequence = ..., transform: ((Int) -> CharSequence)?\
+    \ = ...): String defined in kotlin.collections\npublic fun LongArray.joinToString(separator:\
+    \ CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ...,\
+    \ limit: Int = ..., truncated: CharSequence = ..., transform: ((Long) -> CharSequence)?\
+    \ = ...): String defined in kotlin.collections\npublic fun ShortArray.joinToString(separator:\
+    \ CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ...,\
+    \ limit: Int = ..., truncated: CharSequence = ..., transform: ((Short) -> CharSequence)?\
+    \ = ...): String defined in kotlin.collections\npublic fun <T> Iterable<TypeVariable(T)>.joinToString(separator:\
+    \ CharSequence = ..., prefix: CharSequence = ..., postfix: CharSequence = ...,\
+    \ limit: Int = ..., truncated: CharSequence = ..., transform: ((TypeVariable(T))\
+    \ -> CharSequence)? = ...): String defined in kotlin.collections\npublic fun <T>\
+    \ Sequence<TypeVariable(T)>.joinToString(separator: CharSequence = ..., prefix:\
+    \ CharSequence = ..., postfix: CharSequence = ..., limit: Int = ..., truncated:\
+    \ CharSequence = ..., transform: ((TypeVariable(T)) -> CharSequence)? = ...):\
+    \ String defined in kotlin.sequences\n\tprint(solution(strings, str).joinToString(separator\
+    \ = \" \"))\n                              ^\n"
+  time: Fri, 03 Sep 2021 03:16:56 UTC
+record: -1
