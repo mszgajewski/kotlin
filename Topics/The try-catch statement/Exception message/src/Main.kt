@@ -2,6 +2,6 @@
 try {
     problemFunction()
 } catch (e: Exception) {
-    println()
+    println(e.message)
 } 
 // ...

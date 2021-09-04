@@ -15,3 +15,5 @@ content:
 - Hierarchy of exceptions
 - Taming exceptions
 - The try-catch statement
+- Null safety
+- Type system
