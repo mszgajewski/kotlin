@@ -10,3 +10,8 @@ content:
 - Declaring functions
 - List
 - Mutable List
+- Errors in programs
+- What is an exception
+- Hierarchy of exceptions
+- Taming exceptions
+- The try-catch statement

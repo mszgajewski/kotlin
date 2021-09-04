@@ -1,0 +1,26 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun parseCardNumber(cardNumber: String): Long {
+        // TODO
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7607#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 6. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    1234 5678 9012 3456
+    Correct output:
+    1234567890123456
+
+    Your code output:
+    e
+  time: Sat, 04 Sep 2021 18:26:00 UTC
+record: -1
