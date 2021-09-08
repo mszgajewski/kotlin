@@ -1,0 +1,24 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    class Rectangle(val width: Int, val height: Int)
+
+    fun printArea(rectangle: Rectangle) {
+        // ...
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6208#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:4:13: error: unresolved reference: width
+        println(width*height)
+                ^
+    main.kt:4:19: error: unresolved reference: height
+        println(width*height)
+                      ^
+  time: Sun, 05 Sep 2021 10:01:10 UTC
+record: -1

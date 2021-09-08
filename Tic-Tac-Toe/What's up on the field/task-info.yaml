@@ -316,13 +316,8 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/123/stages/656/implement#comment
-status: Failed
+status: Solved
 feedback:
-  message: "Wrong answer in test #1\n\nThe result is incorrect. Should be: &quot;X\
-    \ wins&quot;, found: &quot;Impossible&quot;. Check if your program works correctly\
-    \ in test examples in description.\n\nPlease find below the output of your program\
-    \ during this failed test.\nNote that the &#39;&gt;&#39; character indicates the\
-    \ beginning of the input line.\n\n---\n\nEnter cells: \n&gt; XXXOO__O_\n---------\n\
-    | X X X |\n| O O _ |\n| _ O _ |\n---------\nImpossible"
-  time: Wed, 01 Sep 2021 03:17:26 UTC
+  message: Congratulations!
+  time: Sun, 05 Sep 2021 15:48:49 UTC
 record: 3

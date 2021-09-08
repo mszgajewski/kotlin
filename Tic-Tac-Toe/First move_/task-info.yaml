@@ -297,5 +297,14 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/123/stages/657/implement#comment
-status: Unchecked
-record: -1
+status: Failed
+feedback:
+  message: "Wrong answer in test #2\n\nThe first field is correct, but the second\
+    \ is not\n\nPlease find below the output of your program during this failed test.\n\
+    Note that the &#39;&gt;&#39; character indicates the beginning of the input line.\n\
+    \n---\n\nEnter cells: \n&gt; _XXOO_OX_\n---------\n| _ X X |\n| O O _ |\n| O X\
+    \ _ |\n---------\nEnter the coordinates: \n&gt; 4 1\nCoordinates should be from\
+    \ 1 to 3!\nThis cell is occupied! Choose another one!\n---------\n| _ X X |\n\
+    | O O _ |\n| O X _ |\n---------"
+  time: Mon, 06 Sep 2021 21:18:00 UTC
+record: 4

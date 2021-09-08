@@ -16,6 +16,8 @@
             <option value="$PROJECT_DIR$/Topics/Arrays/Theory" />
             <option value="$PROJECT_DIR$/Topics/Comments/Theory" />
             <option value="$PROJECT_DIR$/Topics/Comments/Uncomment a line" />
+            <option value="$PROJECT_DIR$/Topics/Declaring classes/Area printer" />
+            <option value="$PROJECT_DIR$/Topics/Declaring classes/Theory" />
             <option value="$PROJECT_DIR$/Topics/Declaring functions/Comparing sums" />
             <option value="$PROJECT_DIR$/Topics/Declaring functions/Division" />
             <option value="$PROJECT_DIR$/Topics/Declaring functions/Right equation" />
@@ -36,6 +38,8 @@
             <option value="$PROJECT_DIR$/Topics/Mutable List/Banana_" />
             <option value="$PROJECT_DIR$/Topics/Mutable List/Remove us" />
             <option value="$PROJECT_DIR$/Topics/Mutable List/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Null safety/Check length" />
+            <option value="$PROJECT_DIR$/Topics/Null safety/Theory" />
             <option value="$PROJECT_DIR$/Topics/Ranges/Between two numbers" />
             <option value="$PROJECT_DIR$/Topics/Ranges/Theory" />
             <option value="$PROJECT_DIR$/Topics/Standard output/Amount on the account" />
@@ -58,6 +62,10 @@
             <option value="$PROJECT_DIR$/Topics/The classification of basic types/Theory" />
             <option value="$PROJECT_DIR$/Topics/The try-catch statement/Exception message" />
             <option value="$PROJECT_DIR$/Topics/The try-catch statement/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Type system/Reverse me if you can" />
+            <option value="$PROJECT_DIR$/Topics/Type system/String length" />
+            <option value="$PROJECT_DIR$/Topics/Type system/String or Int" />
+            <option value="$PROJECT_DIR$/Topics/Type system/Theory" />
             <option value="$PROJECT_DIR$/Topics/What is an exception/Cause an exception" />
             <option value="$PROJECT_DIR$/Topics/What is an exception/Theory" />
             <option value="$PROJECT_DIR$/util" />
