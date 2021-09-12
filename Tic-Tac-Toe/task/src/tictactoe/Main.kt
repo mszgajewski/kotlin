@@ -41,28 +41,16 @@ fun main() {
 					}
 				}
 				printCells(arr)
-				if (cells[0] == 'X' && cells[1] == 'X' && cells[2] == 'X' ||
-					cells[3] == 'X' && cells[4] == 'X' && cells[5] == 'X' ||
-					cells[6] == 'X' && cells[7] == 'X' && cells[8] == 'X' ||
-					cells[0] == 'X' && cells[3] == 'X' && cells[6] == 'X' ||
-					cells[1] == 'X' && cells[4] == 'X' && cells[7] == 'X' ||
-					cells[2] == 'X' && cells[5] == 'X' && cells[8] == 'X' ||
-					cells[0] == 'X' && cells[4] == 'X' && cells[8] == 'X' ||
-					cells[2] == 'X' && cells[4] == 'X' && cells[6] == 'X'
+				if (cells[0] == cells[1] && cells[1] == cells[2] ||
+					cells[3] == cells[4] && cells[4] == cells[5] ||
+					cells[6] == cells[7] && cells[7] == cells[8] ||
+					cells[0] == cells[3] && cells[3] == cells[6] ||
+					cells[1] == cells[4] && cells[4] == cells[7] ||
+					cells[2] == cells[5] && cells[5] == cells[8] ||
+					cells[0] == cells[4] && cells[4] == cells[8] ||
+					cells[2] == cells[4] && cells[4] == cells[6]
 				) {
-					println("X wins")
-					break
-				}
-				if (cells[0] == 'O' && cells[1] == 'O' && cells[2] == 'O' ||
-					cells[3] == 'O' && cells[4] == 'O' && cells[5] == 'O' ||
-					cells[6] == 'O' && cells[7] == 'O' && cells[8] == 'O' ||
-					cells[0] == 'O' && cells[3] == 'O' && cells[6] == 'O' ||
-					cells[1] == 'O' && cells[4] == 'O' && cells[7] == 'O' ||
-					cells[2] == 'O' && cells[5] == 'O' && cells[8] == 'O' ||
-					cells[0] == 'O' && cells[4] == 'O' && cells[8] == 'O' ||
-					cells[2] == 'O' && cells[4] == 'O' && cells[6] == 'O'
-				) {
-					println("O wins")
+					println("")
 					break
 				}
 				var k = 0
